@@ -1,0 +1,92 @@
+---
+title: docker 常用命令
+date: 2024-04-08 14:58
+---
+
+#### 查看卷宗
+
+```shell
+docker volume ls
+docker volume inspect open-webui
+```
+
+#### curl 命令自动跟随
+
+```shell
+curl -L -v http://example.com/original-url
+```
+
+#### extra_hosts 字段说明
+
+在 docker-compose.yaml 文件中，extra_hosts 字段是用来配置容器内部 /etc/hosts 文件的额外主机名到IP地址的映射。当您看到这样的配置：
+
+```yaml
+extra_hosts:
+  - "host.docker.internal:host-gateway"
+```
+
+这意味着在启动由 docker-compose 管理的容器时，Docker会自动在容器的 /etc/hosts 文件中添加一行记录，将 host.docker.internal 主机名指向宿主机的网关地址。host-gateway 这个值通常不是一个实际的IP地址，而是一个特殊的占位符，它会被Docker解释为宿主机的默认网关。
+
+在某些Docker版本中，特别是对于支持 host.docker.internal 功能的平台（如Docker Desktop for Mac和Windows），host.docker.internal 是一个特殊域名，可以用来从容器内部方便地访问宿主机的服务，而无需知道宿主机的具体IP地址。
+
+使用 host-gateway 作为值主要是为了确保在不同环境下宿主机网关地址的动态确定，这样容器就能通过 host.docker.internal 访问宿主机上的服务，不论宿主机的实际IP如何变化。
+
+不过需要注意的是，在不同的Docker版本和平台上，host.docker.internal 的支持程度可能会有所不同。在某些情况下，尤其是Linux上，可能需要通过其他方式（如使用 --network="host" 或 -add-host 参数）才能实现同样的功能。在Linux上，如果没有内置支持，直接使用 host-gateway 可能不会自动解析为正确的宿主机IP，此时可能需要手动提供宿主机的实际IP地址。
+
+在Docker中，extra_hosts 是一个配置选项，用于在容器启动时向容器的 /etc/hosts 文件中添加额外的主机名到IP地址的映射。这意味着当你在 docker run 命令或者 docker-compose.yml 文件中使用 extra_hosts 参数时，Docker会动态地扩展容器内的 hosts 文件，使得容器可以通过这些主机名去访问对应的IP地址。
+
+例如，在 `docker run` 命令中使用 `--add-host` 参数：
+
+```bash
+docker run --add-host somehost:192.168.1.1 myimage
+```
+
+在上述命令中，Docker容器启动时会在其内部的 /etc/hosts 文件中添加一行记录：
+
+```ini
+somehost 192.168.1.1
+```
+
+而在 docker-compose.yml 文件中，你会这样配置：
+
+```yaml
+services:
+ myservice:
+ image: myimage
+ extra_hosts:
+ - "somehost:192.168.1.1"
+ - "otherhost:10.0.0.2"
+```
+
+这样，在名为 `myservice` 的容器里，同样会存在上述两个主机名到IP地址的映射。
+
+这种配置非常有用，尤其在开发环境或临时需要容器内部直接通过主机名访问其他服务的情况下。通过这种方式，您可以避免每次构建镜像时都去修改容器内的 `/etc/hosts` 文件，而是直接在启动容器时动态提供所需的主机名映射。
+
+#### `docker-compose.yaml`文件中 `extra_hosts: - host.docker.internal:host-gateway` 代表什么意思
+
+在 docker-compose.yaml 文件中，extra_hosts 字段是用来配置容器内部 /etc/hosts 文件的额外主机名到IP地址的映射。当您看到这样的配置：
+
+```yaml
+extra_hosts:
+  - "host.docker.internal:host-gateway"
+```
+
+这意味着在启动由 docker-compose 管理的容器时，Docker会自动在容器的 /etc/hosts 文件中添加一行记录，将 host.docker.internal 主机名指向宿主机的网关地址。host-gateway 这个值通常不是一个实际的IP地址，而是一个特殊的占位符，它会被Docker解释为宿主机的默认网关。
+
+在某些Docker版本中，特别是对于支持 host.docker.internal 功能的平台（如Docker Desktop for Mac和Windows），host.docker.internal 是一个特殊域名，可以用来从容器内部方便地访问宿主机的服务，而无需知道宿主机的具体IP地址。
+
+使用 host-gateway 作为值主要是为了确保在不同环境下宿主机网关地址的动态确定，这样容器就能通过 host.docker.internal 访问宿主机上的服务，不论宿主机的实际IP如何变化。
+
+不过需要注意的是，在不同的Docker版本和平台上，host.docker.internal 的支持程度可能会有所不同。在某些情况下，尤其是Linux上，可能需要通过其他方式（如使用 --network="host" 或 -add-host 参数）才能实现同样的功能。在Linux上，如果没有内置支持，直接使用 host-gateway 可能不会自动解析为正确的宿主机IP，此时可能需要手动提供宿主机的实际IP地址。
+
+#### 在Docker中，重新命名一个镜像的标签
+
+```shell
+docker tag SOURCE_IMAGE:TAG TARGET_IMAGE:TAG
+```
+
+例如：
+
+```shell
+docker tag mongodb/mongodb-community-server:latest mongodb/mongodb-community-server:7
+```

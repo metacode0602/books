@@ -1,0 +1,19 @@
+---
+title: ollama日常小技巧
+date: 2024-04-11 20:47
+
+---
+
+## 要查看Ollama进程日志，可以按照以下步骤进行操作12:
+
+`macOS`: 终端执行
+
+```shell
+tail -f ~/.ollama/logs/server.log
+```
+
+`Linux`系统: 终端执行
+
+```
+ journalctl -u ollama.service -f
+```

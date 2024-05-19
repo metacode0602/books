@@ -1,0 +1,990 @@
+{
+  "relative_folders" : [
+    "rag",
+    "ollama",
+    "_image",
+    "_image\/2024-04-08",
+    "rag\/_image",
+    "rag\/_image\/2024-04-09",
+    "llamainde",
+    "_image\/2024-04-12",
+    "agent"
+  ],
+  "filename_path_info" : {
+    "embedding-based" : "rag\/embedding-based.md",
+    "podman" : "podman.md",
+    "2024-04-16-3" : "agent\/2024-04-16-3.md",
+    "2024-04-16" : "agent\/2024-04-16.md",
+    "text-embedding" : "text-embedding.md",
+    "docker" : "docker.md",
+    "local-llm" : "local-llm.md",
+    "2024-04-16-2" : "agent\/2024-04-16-2.md",
+    "mivus-vector" : "llamainde\/mivus-vector.md",
+    "comercial" : "ollama\/comercial.md",
+    "api" : "ollama\/api.md",
+    "docker-command" : "docker-command.md",
+    "self-rag" : "rag\/self-rag.md",
+    "daily-main" : "ollama\/daily-main.md"
+  },
+  "links_backward_paths" : {
+    "Marc Kennedy" : [
+      "rag\/embedding-based.md"
+    ],
+    "Oskar Eriksson" : [
+      "rag\/embedding-based.md"
+    ],
+    "Amos Mosaner" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Chinami Yoshida.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Sofia Mabergs" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Bruce Mouat.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Sara McManus.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "ollama\/.\/modelfile.md" : [
+      "ollama\/api.md"
+    ],
+    "Daniel Magnusson (curler)" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Sofia Mabergs.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Rasmus Wranå.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Jennifer Dodds" : [
+      "rag\/embedding-based.md"
+    ],
+    "Christoffer Sundgren" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Hammy McMillan Jr..md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Hammy McMillan Jr." : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Kotomi Ishizaki.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Mark Nichols (curler)" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Niklas Edin.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Stefania Constantini" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Geoff Walker (curler).md" : [
+      "rag\/embedding-based.md"
+    ],
+    "'title', 'text'.md" : [
+      "text-embedding.md"
+    ],
+    "rag\/Amos Mosaner.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Yumi Suzuki" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Jennifer Dodds.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Anna Hasselborg.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Agnes Knochenhauer" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Vicky Wright.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Brad Gushue.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Chinami Yoshida" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Bobby Lammie.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Yurika Yoshida" : [
+      "rag\/embedding-based.md"
+    ],
+    "Ross Whyte" : [
+      "rag\/embedding-based.md"
+    ],
+    "Brad Gushue" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Magnus Nedregotten.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Sara McManus" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Ross Whyte.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Agnes Knochenhauer.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Brett Gallant.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Grant Hardie.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Daniel Magnusson (curler).md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Oskar Eriksson.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Mark Nichols (curler).md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Niklas Edin" : [
+      "rag\/embedding-based.md"
+    ],
+    "Johanna Heldin" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Yurika Yoshida.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Bobby Lammie" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Mili Smith.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Anna Hasselborg" : [
+      "rag\/embedding-based.md"
+    ],
+    "'title', 'text'" : [
+      "text-embedding.md"
+    ],
+    "rag\/Hailey Duff.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Satsuki Fujisawa" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Marc Kennedy.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Yumi Suzuki.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Brett Gallant" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Satsuki Fujisawa.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Eve Muirhead" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Johanna Heldin.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Hailey Duff" : [
+      "rag\/embedding-based.md"
+    ],
+    "Almida de Val" : [
+      "rag\/embedding-based.md"
+    ],
+    "Grant Hardie" : [
+      "rag\/embedding-based.md"
+    ],
+    "Geoff Walker (curler)" : [
+      "rag\/embedding-based.md"
+    ],
+    "Vicky Wright" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Stefania Constantini.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Kotomi Ishizaki" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Kristin Skaslien.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Eve Muirhead.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Kristin Skaslien" : [
+      "rag\/embedding-based.md"
+    ],
+    "Bruce Mouat" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Christoffer Sundgren.md" : [
+      "rag\/embedding-based.md"
+    ],
+    "Magnus Nedregotten" : [
+      "rag\/embedding-based.md"
+    ],
+    "Rasmus Wranå" : [
+      "rag\/embedding-based.md"
+    ],
+    "Mili Smith" : [
+      "rag\/embedding-based.md"
+    ],
+    "rag\/Almida de Val.md" : [
+      "rag\/embedding-based.md"
+    ]
+  },
+  "toc_info" : {
+    "rag\/embedding-based.md" : [
+      "0,# imports",
+      "1,# models",
+      "2,# an example question about the 2022 Olympics",
+      "3,# text copied and pasted from: https:\/\/en.wikipedia.org\/wiki\/Curling_at_the_2022_Winter_Olympics",
+      "4,# I didn't bother to format or clean the text, but GPT will still understand it",
+      "5,# the entire article is too long for gpt-3.5-turbo, so I only included the top few sections",
+      "6,# download pre-chunked text and pre-computed embeddings",
+      "7,# this file is ~200 MB, so may take a minute depending on your connection speed",
+      "8,# convert embeddings from CSV str type back to list type",
+      "9,# the dataframe has two columns: \"text\" and \"embedding\"",
+      "10,# search function",
+      "11,# examples"
+    ],
+    "docker-command.md" : [
+      "0,## 查看卷宗",
+      "1,## curl 命令自动跟随",
+      "2,## extra_hosts 字段说明"
+    ],
+    "agent\/2024-04-16-2.md" : [
+
+    ],
+    "rag\/self-rag.md" : [
+      "0,##概述",
+      "1,## Corrective RAG (CRAG)",
+      "2,## Self-Reflective RAG",
+      "3,##总结"
+    ],
+    "local-llm.md" : [
+
+    ],
+    "docker.md" : [
+
+    ],
+    "podman.md" : [
+      "0,## 卸载"
+    ],
+    "ollama\/comercial.md" : [
+
+    ],
+    "agent\/2024-04-16-3.md" : [
+
+    ],
+    "agent\/2024-04-16.md" : [
+
+    ],
+    "ollama\/daily-main.md" : [
+      "0,## 要查看Ollama进程日志，可以按照以下步骤进行操作12:"
+    ],
+    "llamainde\/mivus-vector.md" : [
+
+    ],
+    "text-embedding.md" : [
+      "0,# 一、环境配置",
+      "1,##导入cohere的api_key",
+      "2,##创建cohere的Client",
+      "3,# 二、词嵌入(Word Embedding)",
+      "4,## 三、句子嵌入(Sentence Embeddings)",
+      "5,## 三、文章嵌入"
+    ],
+    "ollama\/api.md" : [
+      "0,## Endpoints",
+      "1,## Conventions",
+      "2,### Model names",
+      "3,### Durations",
+      "4,### Streaming responses",
+      "5,## Generate a completion",
+      "6,### Parameters",
+      "7,#### JSON mode",
+      "8,### Examples",
+      "9,#### Generate request (Streaming)",
+      "10,##### Request",
+      "11,##### Response",
+      "12,#### Request (No streaming)",
+      "13,##### Request",
+      "14,##### Response",
+      "15,#### Request (JSON mode)",
+      "16,##### Request",
+      "17,##### Response",
+      "18,#### Request (with images)",
+      "19,#### Request",
+      "20,#### Response",
+      "21,#### Request (Raw Mode)",
+      "22,##### Request",
+      "23,#### Request (Reproducible outputs)",
+      "24,##### Request",
+      "25,##### Response",
+      "26,#### Generate request (With options)",
+      "27,##### Request",
+      "28,##### Response",
+      "29,#### Load a model",
+      "30,##### Request",
+      "31,##### Response",
+      "32,## Generate a chat completion",
+      "33,### Parameters",
+      "34,### Examples",
+      "35,#### Chat Request (Streaming)",
+      "36,##### Request",
+      "37,##### Response",
+      "38,#### Chat request (No streaming)",
+      "39,##### Request",
+      "40,##### Response",
+      "41,#### Chat request (With History)",
+      "42,##### Request",
+      "43,##### Response",
+      "44,#### Chat request (with images)",
+      "45,##### Request",
+      "46,##### Response",
+      "47,#### Chat request (Reproducible outputs)",
+      "48,##### Request",
+      "49,##### Response",
+      "50,## Create a Model",
+      "51,### Parameters",
+      "52,### Examples",
+      "53,#### Create a new model",
+      "54,##### Request",
+      "55,##### Response",
+      "56,### Check if a Blob Exists",
+      "57,#### Query Parameters",
+      "58,#### Examples",
+      "59,##### Request",
+      "60,##### Response",
+      "61,### Create a Blob",
+      "62,#### Query Parameters",
+      "63,#### Examples",
+      "64,##### Request",
+      "65,##### Response",
+      "66,## List Local Models",
+      "67,### Examples",
+      "68,#### Request",
+      "69,#### Response",
+      "70,## Show Model Information",
+      "71,### Parameters",
+      "72,### Examples",
+      "73,#### Request",
+      "74,#### Response",
+      "75,## Copy a Model",
+      "76,### Examples",
+      "77,#### Request",
+      "78,#### Response",
+      "79,## Delete a Model",
+      "80,### Parameters",
+      "81,### Examples",
+      "82,#### Request",
+      "83,#### Response",
+      "84,## Pull a Model",
+      "85,### Parameters",
+      "86,### Examples",
+      "87,#### Request",
+      "88,#### Response",
+      "89,## Push a Model",
+      "90,### Parameters",
+      "91,### Examples",
+      "92,#### Request",
+      "93,#### Response",
+      "94,## Generate Embeddings",
+      "95,### Parameters",
+      "96,### Examples",
+      "97,#### Request",
+      "98,#### Response"
+    ]
+  },
+  "documents_info" : {
+    "text-embedding.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+        {
+          "name" : "2024-04-12-09-16-43@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-16-43@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-37-00@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-37-00@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-37-16@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-37-16@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-37-33@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-37-33@2x.jpg"
+        },
+        {
+          "path" : "_image\/2024-04-12\/2024-04-12-09-37-50@2x.jpg",
+          "name" : "2024-04-12-09-37-50@2x.jpg"
+        },
+        {
+          "path" : "_image\/2024-04-12\/2024-04-12-09-38-11@2x.jpg",
+          "name" : "2024-04-12-09-38-11@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-38-25@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-38-25@2x.jpg"
+        },
+        {
+          "path" : "_image\/2024-04-12\/2024-04-12-09-39-07@2x.jpg",
+          "name" : "2024-04-12-09-39-07@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-40-35@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-40-35@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-41-13@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-41-13@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-50-29@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-50-29@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-43-06@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-43-06@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-43-44@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-43-44@2x.jpg"
+        },
+        {
+          "name" : "2024-04-12-09-44-01@2x.jpg",
+          "path" : "_image\/2024-04-12\/2024-04-12-09-44-01@2x.jpg"
+        }
+      ],
+      "links" : [
+
+      ]
+    },
+    "agent\/2024-04-16-3.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "rag\/self-rag.md" : {
+      "images" : [
+        {
+          "path" : "rag\/_image\/2024-04-09\/2024-04-09-07-12-48@2x.jpg",
+          "name" : "2024-04-09-07-12-48@2x.jpg"
+        },
+        {
+          "path" : "rag\/_image\/2024-04-09\/2024-04-09-07-13-08@2x.jpg",
+          "name" : "2024-04-09-07-13-08@2x.jpg"
+        },
+        {
+          "path" : "rag\/_image\/2024-04-09\/2024-04-09-07-13-30@2x.jpg",
+          "name" : "2024-04-09-07-13-30@2x.jpg"
+        },
+        {
+          "name" : "2024-04-09-07-13-53@2x.jpg",
+          "path" : "rag\/_image\/2024-04-09\/2024-04-09-07-13-53@2x.jpg"
+        },
+        {
+          "name" : "2024-04-09-07-14-03@2x.jpg",
+          "path" : "rag\/_image\/2024-04-09\/2024-04-09-07-14-03@2x.jpg"
+        },
+        {
+          "path" : "rag\/_image\/2024-04-09\/2024-04-09-07-15-28@2x.jpg",
+          "name" : "2024-04-09-07-15-28@2x.jpg"
+        },
+        {
+          "path" : "rag\/_image\/2024-04-09\/2024-04-09-07-15-37@2x.jpg",
+          "name" : "2024-04-09-07-15-37@2x.jpg"
+        },
+        {
+          "path" : "rag\/_image\/2024-04-09\/2024-04-09-07-15-44@2x.jpg",
+          "name" : "2024-04-09-07-15-44@2x.jpg"
+        }
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "local-llm.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "ollama\/api.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "agent\/2024-04-16-2.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+        {
+          "name" : "2024-04-16-12-06-50@2x.jpg",
+          "path" : "agent\/_image\/2024-04-16\/2024-04-16-12-06-50@2x.jpg"
+        },
+        {
+          "path" : "agent\/_image\/2024-04-16\/2024-04-16-12-18-17@2x.jpg",
+          "name" : "2024-04-16-12-18-17@2x.jpg"
+        },
+        {
+          "name" : "2024-04-16-12-19-08@2x.jpg",
+          "path" : "agent\/_image\/2024-04-16\/2024-04-16-12-19-08@2x.jpg"
+        }
+      ],
+      "links" : [
+
+      ]
+    },
+    "agent\/2024-04-16.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "name" : "Code",
+          "url" : "https:\/\/github.com\/namuan\/llm-playground\/blob\/main\/local-llm-tools-simple.py"
+        },
+        {
+          "name" : "openhermes-functions",
+          "url" : "https:\/\/github.com\/abacaj\/openhermes-function-calling\/blob\/main\/openhermes-functions.ipynb"
+        }
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "ollama\/comercial.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "rag\/embedding-based.md" : {
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "llamainde\/mivus-vector.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "ollama\/daily-main.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "podman.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "docker.md" : {
+      "images" : [
+        {
+          "name" : "2024-04-08-09-10-18@2x.jpg",
+          "path" : "_image\/2024-04-08\/2024-04-08-09-10-18@2x.jpg"
+        },
+        {
+          "path" : "_image\/2024-04-08\/2024-04-08-09-12-00@2x.jpg",
+          "name" : "2024-04-08-09-12-00@2x.jpg"
+        }
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "docker-command.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    }
+  },
+  "words_info" : {
+    "podman.md" : 36,
+    "ollama\/api.md" : 2695,
+    "rag\/embedding-based.md" : 3678,
+    "agent\/2024-04-16-3.md" : 2,
+    "text-embedding.md" : 3180,
+    "agent\/2024-04-16-2.md" : 2090,
+    "local-llm.md" : 47,
+    "rag\/self-rag.md" : 1238,
+    "docker.md" : 1314,
+    "agent\/2024-04-16.md" : 854,
+    "llamainde\/mivus-vector.md" : 14,
+    "ollama\/daily-main.md" : 47,
+    "ollama\/comercial.md" : 10,
+    "docker-command.md" : 1154
+  },
+  "tags_paths" : {
+    "ollama\/api.md" : [
+
+    ],
+    "docker.md" : [
+
+    ],
+    "rag\/embedding-based.md" : [
+
+    ],
+    "docker-command.md" : [
+
+    ],
+    "agent\/2024-04-16.md" : [
+
+    ],
+    "local-llm.md" : [
+
+    ],
+    "llamainde\/mivus-vector.md" : [
+
+    ],
+    "ollama\/daily-main.md" : [
+
+    ],
+    "podman.md" : [
+
+    ],
+    "rag\/self-rag.md" : [
+
+    ],
+    "text-embedding.md" : [
+
+    ],
+    "ollama\/comercial.md" : [
+
+    ],
+    "agent\/2024-04-16-2.md" : [
+
+    ],
+    "agent\/2024-04-16-3.md" : [
+
+    ]
+  },
+  "files_mtime_info" : {
+    "podman.md" : 1712615740,
+    "ollama\/comercial.md" : 1712895783,
+    "rag\/self-rag.md" : 1712618210,
+    "llamainde\/mivus-vector.md" : 1712883694,
+    "docker.md" : 1712538725,
+    "agent\/2024-04-16-3.md" : 1713241237,
+    "ollama\/api.md" : 1712799627,
+    "ollama\/daily-main.md" : 1712839697,
+    "text-embedding.md" : 1712886629,
+    "local-llm.md" : 1712481067,
+    "agent\/2024-04-16-2.md" : 1713241231,
+    "rag\/embedding-based.md" : 1712618430,
+    "docker-command.md" : 1712561252,
+    "agent\/2024-04-16.md" : 1713238400,
+    "template.md" : 1712468806
+  },
+  "path_name_info" : {
+    "ollama\/api.md" : "ollama api",
+    "local-llm.md" : "本地搭建知识库",
+    "rag\/self-rag.md" : "高级 RAG（Self-Reflective RAG）",
+    "agent\/2024-04-16-3.md" : "2024-04-16-3",
+    "rag\/embedding-based.md" : "Embeddings-based 的搜索进行问答",
+    "docker.md" : "Docker网络模式：Bridge和Host的区别，一文带你了解！",
+    "text-embedding.md" : "文本嵌入(Text Embeddings)",
+    "ollama\/daily-main.md" : "ollama日常小技巧",
+    "ollama\/comercial.md" : "FastGPT 商业版相关说明",
+    "agent\/2024-04-16.md" : "Function calling using Ollama models",
+    "podman.md" : "podman 安装与卸载",
+    "docker-command.md" : "docker 常用命令",
+    "llamainde\/mivus-vector.md" : "如何持久化存储 LlamaIndex 向量索引",
+    "agent\/2024-04-16-2.md" : "ReAct Agent 回答 RAG 系统中的复杂问题"
+  },
+  "tags_tags" : {
+
+  },
+  "relative_paths" : [
+    "docker.md",
+    "local-llm.md",
+    "docker-command.md",
+    "podman.md",
+    "rag\/self-rag.md",
+    "rag\/embedding-based.md",
+    "ollama\/api.md",
+    "ollama\/daily-main.md",
+    "llamainde\/mivus-vector.md",
+    "text-embedding.md",
+    "ollama\/comercial.md",
+    "agent\/2024-04-16.md",
+    "agent\/2024-04-16-2.md",
+    "agent\/2024-04-16-3.md"
+  ],
+  "name_path_info" : {
+    "2024-04-16" : "agent\/2024-04-16.md",
+    "fastgpt 商业版相关说明" : "ollama\/comercial.md",
+    "在 ubantu 上安装docker" : "docker.md",
+    "ollama日常小技巧" : "ollama\/daily-main.md",
+    "高级 rag（self-reflective rag）" : "rag\/self-rag.md",
+    "mivus-vector" : "llamainde\/mivus-vector.md",
+    "comercial" : "ollama\/comercial.md",
+    "podman 安装与卸载" : "podman.md",
+    "docker" : "docker.md",
+    "2024-04-16-3" : "agent\/2024-04-16-3.md",
+    "docker 安装" : "docker.md",
+    "doc" : "docker.md",
+    "b" : "local-llm.md",
+    "ollama api" : "ollama\/api.md",
+    "text-embedding" : "text-embedding.md",
+    "local-llm" : "local-llm.md",
+    "self-rag" : "rag\/self-rag.md",
+    "docker-command" : "docker-command.md",
+    "c" : "ollama\/comercial.md",
+    "embeddings-based 的搜索进行问答" : "rag\/embedding-based.md",
+    "function calling using ollama models" : "agent\/2024-04-16.md",
+    "react agent 回答 rag 系统中的复杂问题" : "agent\/2024-04-16-2.md",
+    "daily-main" : "ollama\/daily-main.md",
+    "embedding-based" : "rag\/embedding-based.md",
+    "api" : "ollama\/api.md",
+    "本地搭建知识库" : "local-llm.md",
+    "2024-04-16-2" : "agent\/2024-04-16-2.md",
+    "docker网络模式：bridge和host的区别，一文带你了解！" : "docker.md",
+    "文本嵌入(text embeddings)" : "text-embedding.md",
+    "docker 常用命令" : "docker-command.md",
+    "podman" : "podman.md",
+    "如何持久化存储 llamaindex 向量索引" : "llamainde\/mivus-vector.md"
+  },
+  "todo_list" : {
+
+  },
+  "toc_hash_info" : {
+
+  },
+  "links_paths" : {
+    "rag\/embedding-based.md" : [
+      "Yurika Yoshida",
+      "rag\/Yurika Yoshida.md",
+      "Yumi Suzuki",
+      "rag\/Yumi Suzuki.md",
+      "Chinami Yoshida",
+      "rag\/Chinami Yoshida.md",
+      "Satsuki Fujisawa",
+      "rag\/Satsuki Fujisawa.md",
+      "Hailey Duff",
+      "rag\/Hailey Duff.md",
+      "Jennifer Dodds",
+      "rag\/Jennifer Dodds.md",
+      "Vicky Wright",
+      "rag\/Vicky Wright.md",
+      "Eve Muirhead",
+      "rag\/Eve Muirhead.md",
+      "Stefania Constantini",
+      "rag\/Stefania Constantini.md",
+      "Kristin Skaslien",
+      "rag\/Kristin Skaslien.md",
+      "Amos Mosaner",
+      "rag\/Amos Mosaner.md",
+      "Magnus Nedregotten",
+      "rag\/Magnus Nedregotten.md",
+      "Niklas Edin",
+      "rag\/Niklas Edin.md",
+      "Oskar Eriksson",
+      "rag\/Oskar Eriksson.md",
+      "Rasmus Wranå",
+      "rag\/Rasmus Wranå.md",
+      "Christoffer Sundgren",
+      "rag\/Christoffer Sundgren.md",
+      "Daniel Magnusson (curler)",
+      "rag\/Daniel Magnusson (curler).md",
+      "Bruce Mouat",
+      "rag\/Bruce Mouat.md",
+      "Grant Hardie",
+      "rag\/Grant Hardie.md",
+      "Bobby Lammie",
+      "rag\/Bobby Lammie.md",
+      "Hammy McMillan Jr.",
+      "rag\/Hammy McMillan Jr..md",
+      "Ross Whyte",
+      "rag\/Ross Whyte.md",
+      "Brad Gushue",
+      "rag\/Brad Gushue.md",
+      "Mark Nichols (curler)",
+      "rag\/Mark Nichols (curler).md",
+      "Brett Gallant",
+      "rag\/Brett Gallant.md",
+      "Geoff Walker (curler)",
+      "rag\/Geoff Walker (curler).md",
+      "Marc Kennedy",
+      "rag\/Marc Kennedy.md",
+      "Mili Smith",
+      "rag\/Mili Smith.md",
+      "Kotomi Ishizaki",
+      "rag\/Kotomi Ishizaki.md",
+      "Anna Hasselborg",
+      "rag\/Anna Hasselborg.md",
+      "Sara McManus",
+      "rag\/Sara McManus.md",
+      "Agnes Knochenhauer",
+      "rag\/Agnes Knochenhauer.md",
+      "Sofia Mabergs",
+      "rag\/Sofia Mabergs.md",
+      "Johanna Heldin",
+      "rag\/Johanna Heldin.md",
+      "Almida de Val",
+      "rag\/Almida de Val.md"
+    ],
+    "text-embedding.md" : [
+      "'title', 'text'",
+      "'title', 'text'.md"
+    ],
+    "ollama\/api.md" : [
+      "ollama\/.\/modelfile.md"
+    ]
+  },
+  "documents_meta_info" : {
+    "agent\/2024-04-16-2.md" : {
+      "date" : "2024-04-16 11:32",
+      "title" : "ReAct Agent 回答 RAG 系统中的复杂问题",
+      "raw_metadata_str" : "title: ReAct Agent 回答 RAG 系统中的复杂问题\ndate: 2024-04-16 11:32"
+    },
+    "rag\/self-rag.md" : {
+      "title" : "高级 RAG（Self-Reflective RAG）",
+      "date" : "2024-04-09 07:11",
+      "raw_metadata_str" : "title: 高级 RAG（Self-Reflective RAG）\ndate: 2024-04-09 07:11"
+    },
+    "ollama\/daily-main.md" : {
+      "raw_metadata_str" : "title: ollama日常小技巧\ndate: 2024-04-11 20:47",
+      "title" : "ollama日常小技巧",
+      "date" : "2024-04-11 20:47"
+    },
+    "docker.md" : {
+      "raw_metadata_str" : "title: Docker网络模式：Bridge和Host的区别，一文带你了解！\ndate: 2024-04-07 13:47``",
+      "title" : "Docker网络模式：Bridge和Host的区别，一文带你了解！",
+      "date" : "2024-04-07 13:47``"
+    },
+    "rag\/embedding-based.md" : {
+      "title" : "Embeddings-based 的搜索进行问答",
+      "date" : "2024-04-09 07:17",
+      "raw_metadata_str" : "title: Embeddings-based 的搜索进行问答\ndate: 2024-04-09 07:17"
+    },
+    "llamainde\/mivus-vector.md" : {
+      "date" : "2024-04-12 09:01",
+      "raw_metadata_str" : "title: 如何持久化存储 LlamaIndex 向量索引\ndate: 2024-04-12 09:01",
+      "title" : "如何持久化存储 LlamaIndex 向量索引"
+    },
+    "agent\/2024-04-16.md" : {
+      "date" : "2024-04-16 09:48",
+      "raw_metadata_str" : "title: Function calling using Ollama models\ndate: 2024-04-16 09:48",
+      "title" : "Function calling using Ollama models"
+    },
+    "agent\/2024-04-16-3.md" : {
+      "raw_metadata_str" : "title: 2024-04-16-3\ndate: 2024-04-16 12:20",
+      "title" : "2024-04-16-3",
+      "date" : "2024-04-16 12:20"
+    },
+    "template.md" : {
+      "title" : "$name$",
+      "raw_metadata_str" : "title: $name$\ndate: $date%Y-%m-%d %H:%M$",
+      "date" : "$date%Y-%m-%d %H:%M$"
+    },
+    "local-llm.md" : {
+      "raw_metadata_str" : "title: 本地搭建知识库\ndate: 2024-04-07 14:19",
+      "title" : "本地搭建知识库",
+      "date" : "2024-04-07 14:19"
+    },
+    "text-embedding.md" : {
+      "raw_metadata_str" : "title: 文本嵌入(Text Embeddings)\ndate: 2024-04-12 09:13",
+      "date" : "2024-04-12 09:13",
+      "title" : "文本嵌入(Text Embeddings)"
+    },
+    "docker-command.md" : {
+      "date" : "2024-04-08 14:58",
+      "raw_metadata_str" : "title: docker 常用命令\ndate: 2024-04-08 14:58",
+      "title" : "docker 常用命令"
+    },
+    "ollama\/api.md" : {
+      "title" : "ollama api",
+      "raw_metadata_str" : "title: ollama api\ndate: 2024-04-09 15:40",
+      "date" : "2024-04-09 15:40"
+    },
+    "podman.md" : {
+      "date" : "2024-04-09 06:34",
+      "raw_metadata_str" : "title: podman 安装与卸载\ndate: 2024-04-09 06:34",
+      "title" : "podman 安装与卸载"
+    },
+    "ollama\/comercial.md" : {
+      "raw_metadata_str" : "title: FastGPT 商业版相关说明\ndate: 2024-04-12 12:22",
+      "title" : "FastGPT 商业版相关说明",
+      "date" : "2024-04-12 12:22"
+    }
+  }
+}
