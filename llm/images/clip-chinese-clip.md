@@ -1,7 +1,5 @@
 # 多模态表征—CLIP及中文版Chinese-CLIP：理论讲解、代码微调与论文阅读
 
-
-
 ![多模态表征—CLIP及中文版Chinese-CLIP：理论讲解、代码微调与论文阅读](https://pica.zhimg.com/70/v2-d1f76967a4fd2839b16b5fbeb07e8cb5_1440w.image?source=172ae18b&biz_tag=Post)
 
 ﻿我之前一直在使用CLIP/Chinese-CLIP，但并未进行过系统的疏导。这次正好可以详细解释一下。相比于CLIP模型，Chinese-CLIP更适合我们的应用和微调，因为原始的CLIP模型只支持英文，对于我们的中文应用来说不够友好。Chinese-CLIP很好地弥补了这方面的不足，它使用了大量的中文-文图对进行训练，与CLIP模型架构完全一致。

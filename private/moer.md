@@ -15,18 +15,12 @@ https://www.autodl.com/login?url=/console/center/account/safe?_random_=171360247
 
 公司内网
 
-
-
-```sh
+```shell
 ## 数据备份
 ssh/scp
 172.30.1.30
 datauser/yh20240411
 ```
-
-
-
-
 
 职位描述： 
 负责大模型预训练语言模型的微调和优化，希望候选人具有深厚技术背景的，有大型语言模型（如GPT、BERT等）微调方面的专业知识和实践经验，以及简单机器学习模型的训练与出色的软件开发能力。
