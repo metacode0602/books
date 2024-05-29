@@ -46,3 +46,15 @@ https://www.zhihu.com/question/452536835
   "linkai_app_code": ""
 }
 ```
+
+
+
+
+
+
+
+### superbase keys:
+
+```ini
+Database Password： 3ixWLM9dv92aNc2B
+```

@@ -19,3 +19,15 @@ server {
     error_log /var/log/nginx/6006_error.log;
 }
 ```
+
+```ini
+server {
+    listen 8081;  # 监听8081端口
+    # server_name localhost;  # 可选，服务器名称
+
+    root /root/github/stable-diffusion-webui/models;  # 设置根目录
+    index index.html index.htm;  # 设置默认首页
+
+    # 其他配置...
+}
+```
