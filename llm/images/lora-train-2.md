@@ -262,13 +262,7 @@ sudo apt update -y && sudo apt install -y python3-tk
 
 ## 监听本机的7861端口，并接收局域网访问
 ./gui.sh --listen 0.0.0.0 --server_port 7861 --inbrowser
-
-
 ```
-
-
-
-
 
 首先我们可以看到电脑的一切配置文件，最后我们可以看到一串网址`http://127.0.0.1:7860`，这就是我们的启动方式，我们在浏览器打开该地址即可看到该工具的GUI操作界面啦！
 

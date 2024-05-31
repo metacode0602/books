@@ -16,3 +16,26 @@ Environment="OLLAMA_HOST=0.0.0.0:11434"
 ```shell
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ./open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:latest
 ```
+
+
+
+开源Agent项目列表
+
+```shell
+https://github.com/vercel/ai-chatbot
+
+
+
+https://github.com/zwq2018/Data-Copilot
+
+
+https://github.com/leptonai/search_with_lepton
+
+
+https://github.com/ItzCrazyKns/Perplexica.git
+
+
+http://github.com/miurla/morphic 
+
+https://github.com/alibaba/sreworks-ext
+```
